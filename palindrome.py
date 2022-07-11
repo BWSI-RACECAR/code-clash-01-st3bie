@@ -34,7 +34,7 @@ class Solution:
         if (len(s) <= 6):
             return False
 
-        for i in range(0, len(s)/2):
+        for i in range(0, int(len(s)/2)):
             if s[i] != s[len(s) - i - 1]:
                 return False
 
